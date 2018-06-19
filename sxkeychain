@@ -1,0 +1,43 @@
+file:/usr/local/git/etc/gitconfig	core.excludesfile=~/.gitignore
+file:/usr/local/git/etc/gitconfig	core.legacyheaders=false
+file:/usr/local/git/etc/gitconfig	core.quotepath=false
+file:/usr/local/git/etc/gitconfig	mergetool.keepbackup=true
+file:/usr/local/git/etc/gitconfig	push.default=simple
+file:/usr/local/git/etc/gitconfig	color.ui=auto
+file:/usr/local/git/etc/gitconfig	color.interactive=auto
+file:/usr/local/git/etc/gitconfig	repack.usedeltabaseoffset=true
+file:/usr/local/git/etc/gitconfig	alias.s=status
+file:/usr/local/git/etc/gitconfig	alias.a=!git add . && git status
+file:/usr/local/git/etc/gitconfig	alias.au=!git add -u . && git status
+file:/usr/local/git/etc/gitconfig	alias.aa=!git add . && git add -u . && git status
+file:/usr/local/git/etc/gitconfig	alias.c=commit
+file:/usr/local/git/etc/gitconfig	alias.cm=commit -m
+file:/usr/local/git/etc/gitconfig	alias.ca=commit --amend
+file:/usr/local/git/etc/gitconfig	alias.ac=!git add . && git commit
+file:/usr/local/git/etc/gitconfig	alias.acm=!git add . && git commit -m
+file:/usr/local/git/etc/gitconfig	alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+file:/usr/local/git/etc/gitconfig	alias.ll=log --stat --abbrev-commit
+file:/usr/local/git/etc/gitconfig	alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+file:/usr/local/git/etc/gitconfig	alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+file:/usr/local/git/etc/gitconfig	alias.d=diff
+file:/usr/local/git/etc/gitconfig	alias.master=checkout master
+file:/usr/local/git/etc/gitconfig	alias.spull=svn rebase
+file:/usr/local/git/etc/gitconfig	alias.spush=svn dcommit
+file:/usr/local/git/etc/gitconfig	alias.alias=!git config --list | grep 'alias\.' | sed 's/alias\.\([^=]*\)=\(.*\)/\1\	 => \2/' | sort
+file:/usr/local/git/etc/gitconfig	include.path=~/.gitcinclude
+file:/usr/local/git/etc/gitconfig	include.path=.githubconfig
+file:/usr/local/git/etc/gitconfig	include.path=.gitcredential
+file:/usr/local/git/etc/gitconfig	diff.exif.textconv=exif
+file:/usr/local/git/etc/gitconfig	credential.helper=osxkeychain
+file:/Users/scottschneider/.gitconfig	user.name=scottie-schneider
+file:/Users/scottschneider/.gitconfig	user.email=scott@laclave.co
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.ignorecase=true
+file:.git/config	core.precomposeunicode=true
+file:.git/config	remote.origin.url=https://github.com/scottie-schneider/socket_notifications.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.master.remote=origin
+file:.git/config	branch.master.merge=refs/heads/master
